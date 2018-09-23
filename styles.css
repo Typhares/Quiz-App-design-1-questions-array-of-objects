@@ -1,0 +1,48 @@
+/*unstyle bulleted lists
+hexadecimal colors for gray
+gray94	#F0F0F0 (light)
+gray61	#9C9C9C (medium)
+gray25	#404040 (dark)
+black   #000000
+use `min-width media queries` to be responsive first
+Andrea Bailye's Responsive Example for Media Query 
+https://github.com/andreacardybailey/responsive_example
+*/
+
+* {
+    box-sizing: border-box,
+}
+
+/*
+ .quiz, .summary  {    
+    
+    display:none;
+
+}
+
+*/
+
+h1 {
+    font: #0000;
+}
+
+.container {
+  border: 1px solid red;
+}
+.quiz li {
+    list-style: none;
+    padding: 20;
+    border: 1px solid #9C9C9C;
+}
+
+.summary, h2, p, a {
+    border: 1px solid #9C9C9C;
+    padding: 20;
+}
+
+/*.selected div*/
+
+.selected {
+    background-color: #F0F0F0;
+}
+
